@@ -9,7 +9,7 @@ body {
     text-shadow: 0 0 12px rgba(255, 255, 255, 0.419);
 }
 .font-garamond {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'EB Garamond', serif;
     font-style: italic;
 }
 .nav-container {
@@ -80,7 +80,7 @@ body {
     }
 }
 .font-space-mono {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Space Mono', monospace;
 }
 .footer-text {
     transition: letter-spacing 0.8s ease;
@@ -193,7 +193,7 @@ body {
     height: 2rem;
 }
 .read-more {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Space Mono', monospace;
     text-transform: uppercase;
     text-decoration: underline;
     display: inline-flex;
