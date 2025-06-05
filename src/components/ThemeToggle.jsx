@@ -7,7 +7,7 @@ const ThemeToggle = ({ isDark, toggleTheme }) => {
         <div className="absolute top-8 right-8 z-10">
             <button
                 onClick={toggleTheme}
-                className="p-2 rounded-lg bg-dark dark:bg-light text-light dark:text-dark w-10 h-10 flex items-center justify-center"
+                className="p-2 rounded-lg bg-black dark:bg-white text-black dark:text-black w-10 h-10 flex items-center justify-center"
                 aria-label="Toggle theme"
             >
                 {isDark ? <Sun size={24} /> : <Moon size={24} />}
