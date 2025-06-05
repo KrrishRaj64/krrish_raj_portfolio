@@ -9,7 +9,7 @@ body {
     text-shadow: 0 0 12px rgba(255, 255, 255, 0.419);
 }
 .font-garamond {
-    font-family: 'EB Garamond', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 .nav-container {
@@ -45,9 +45,9 @@ body {
     filter: invert(0);
     transform: scale(1.5);
 }
-.dark .tech-icon {
-    /* Default dark mode style for tech-icon if different, otherwise it inherits */
-}
+/* .dark .tech-icon {
+    // Default dark mode style for tech-icon if different, otherwise it inherits
+} */
 .dark .tech-icon:hover {
     filter: invert(1);
     transform: scale(1.5);
@@ -80,7 +80,7 @@ body {
     }
 }
 .font-space-mono {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 .footer-text {
     transition: letter-spacing 0.8s ease;
@@ -193,7 +193,7 @@ body {
     height: 2rem;
 }
 .read-more {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     text-decoration: underline;
     display: inline-flex;
